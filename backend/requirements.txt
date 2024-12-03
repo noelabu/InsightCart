@@ -11,4 +11,6 @@ pandas
 seaborn
 matplotlib
 firecrawl-py
+chromadb
+plotly
 git+https://github.com/openai/swarm.git
