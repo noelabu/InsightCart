@@ -18,10 +18,10 @@ class DataVisualizerAgent(Agent):
               You are a data visualization expert. Analyze the following report data
               and recommend the most suitable visualization graphs. For each recommendation,
               provide:
-              - Graph type (bar chart, scatter plot, etc.)
+              - Graph type - only consider bar chart, scatter plot, line chart, box plot and histogram
               - X-axis column
               - Y-axis column
-              - Columns needed (only consider the columns that is in the dataset columns)
+              - Columns needed - only consider the columns that is in the dataset columns
               - Brief description of why this visualization is appropriate
 
               Respond strictly in the following JSON format. No json in the start of the string.

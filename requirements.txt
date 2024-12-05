@@ -3,8 +3,12 @@ openai
 pandas
 seaborn
 matplotlib
+scikit-learn
 firecrawl-py
 plotly
-dash
 logging
+streamlit_option_menu
+streamlit_extras
+streamlit-chat 
+streamlit
 git+https://github.com/openai/swarm.git

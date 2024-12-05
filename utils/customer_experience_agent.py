@@ -87,30 +87,6 @@ class PersonalizationAgent(Agent):
             2. Create targeted communication and marketing approaches
             3. Generate actionable insights for improving customer experience
 
-            Respond ONLY with a JSON format output directly addressing the personalization strategy. No json in the start of the string.
             """,
             functions=[generate_personalization_strategy]
         )
-
-class ReportingAgent(Agent):
-  def __init__(self):
-    def generate_comprehensive_report(context_variables) -> str:
-      """
-      Generate a comprehensive customer experience report
-      """
-      return {
-          "segments": context_variables["segments"],
-          "personalization_strategies": context_variables["personalization_strategies"]
-      }
-
-    super().__init__(
-      name="ReportingAgent",
-      instructions="""
-      You are a reporting and insights specialist.
-      Compile comprehensive customer experience reports
-      that summarize user segment statistics and corresponding personalization strategies.
-
-      Generate clear, actionable, and strategic reports based on the segments and personalization strategies of each segment.
-      """,
-      function=[generate_comprehensive_report]
-    )
