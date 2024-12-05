@@ -1,6 +1,4 @@
-import pandas as pd
 import plotly.express as px
-import plotly.graph_objs as go
 
 class PlotlyVisualization:
     def __init__(self, dataset, recommended_graphs):
