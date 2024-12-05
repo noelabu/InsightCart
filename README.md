@@ -81,7 +81,7 @@ Once you've set up the API key, you can run the Streamlit app to interact with *
 streamlit run app.py
 ```
 
-Open your browser and go to `http://localhost:8501` to access the application. 
+Open your browser and go to `http://localhost:8501` to access the application. ou can also access the live version [here](https://noelabu-insightcart.streamlit.app/).
 
 ---
 ## Conclusion
